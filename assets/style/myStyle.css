@@ -404,13 +404,14 @@ width: 100%;
   text-transform: uppercase;
 } */
 .section15 {
-  padding: 80px 0;
   background-image: url(/assets/image/Group\ 481857.png);
-  background-size: cover;
-  aspect-ratio: 3/1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 1200/535;
 }
 .section15 >.section {
   display: flex;
+  padding: 0;
 }
 .section15__form {
   display: flex;
