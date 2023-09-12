@@ -560,6 +560,12 @@ footer .footer-bottom p {
 
 /* Mobile */
 @media screen and (max-width : 1024px) {
+  .section4__lydo__content div:hover > h4 {
+    font-size: 20px
+  }
+  .section4__lydo__content div:hover  > p {
+    font-size: unset
+  }
   .section4__lydo{
     display: flex;
     flex-direction: column;
