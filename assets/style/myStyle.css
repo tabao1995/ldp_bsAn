@@ -180,7 +180,7 @@ width: 100%;
   right:0
 }
 .section6.fullwidth-section {
-  background-color: rgba(4, 37, 77, 0.8);
+  background-color: rgba(9, 25, 174, 0.44);
   aspect-ratio: 3/1;
   position: relative;
 
@@ -290,6 +290,13 @@ padding: 0;
 .section10 .section >.width50.content{
   padding: 0 30px;
 }
+
+.section10 .section >.width50.content1>*{
+  text-align: right;
+}
+.section10 .section >.width50.content2>*{
+  text-align: left;
+}
 .section10 .section >.width50.img{
   position: relative;
   aspect-ratio: 1/1;
@@ -344,6 +351,8 @@ width: 100%;
   position: relative;
   margin: 32px;
   border-radius: 12px;
+  padding: 40px;
+  border :1px solid var(--bluecolor)
 }
 
 .section13__review__item__top {
@@ -519,19 +528,19 @@ footer {
 footer .footer-top {
   display: flex;
   border-bottom: 1px solid #fff;
+  gap: 10%
 }
-footer .footer-top .section-withlogo {
-  width: 25%;
-  padding-right: 60px;
+footer .footer-top .section-withlogo ,footer .footer-top .section-withlogo {
+  width: 50%;
 }
 footer .footer-top .section-withlogo img {
   padding-bottom: 12px;
 }
-footer .footer-top .section-withoutlogo {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+footer .footer-top .section-withoutlogo a img{
+  padding-right: 32px;
+}
+footer .footer-top .section-withoutlogo p {
+  padding: 10px;
 }
 footer h3,
 footer a {
