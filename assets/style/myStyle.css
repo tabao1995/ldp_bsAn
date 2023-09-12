@@ -316,6 +316,11 @@ z-index: 10000;
 .section10 .section >.width50 div .Invisalign {
 width: 100%;
 }
+.section11__chungnhan .slick-list{padding:0 15% 0 0 !important;}
+.section11__chungnhan img {
+  margin: auto;
+  width: 80%;
+}
 .section12 {
   background-color: var(--bluecolor);
 }
@@ -347,6 +352,7 @@ width: 100%;
 .section13 .section:first-child img:hover{
   animation: puppung 1s infinite ;
 }
+.section13 .slick-list{padding:0 20% 0 0 !important;}
 .section13__review__item {
   position: relative;
   margin: 32px;
@@ -783,4 +789,3 @@ footer .footer-bottom p {
   animation: puppung 1s ease;
   display: block;
 }
-.slick-list{padding:0 20% 0 0 !important;}
